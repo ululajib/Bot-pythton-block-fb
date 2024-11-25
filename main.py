@@ -52,9 +52,9 @@ driver.execute_script("return document.readyState")
 
 #Open page Hack Input profile ban
 listIframe = [
-    'https://web.facebook.com/Batam-lnfinix-102312909313422/settings/?tab=people_and_other_pages&cquick=jsc_c_u&cquick_token=AQ5CqNyaWgIrd2D2ASo&ctarget=https%3A%2F%2Fweb.facebook.com',
-    'https://web.facebook.com/batamlnfinix/settings/?tab=people_and_other_pages&cquick=jsc_c_14&cquick_token=AQ5CqNyaWgIrd2D2BpI&ctarget=https%3A%2F%2Fweb.facebook.com',
-    'https://web.facebook.com/bataminfinxharbolnaz/settings/?tab=people_and_other_pages&cquick=jsc_c_11&cquick_token=AQ5CqNyaWgIrd2D22Gg&ctarget=https%3A%2F%2Fweb.facebook.com'
+    'tab=people_and_other_pages&cquick=jsc_c_u&cquick_token=AQ5CqNyaWgIrd2D2ASo&ctarget=https%3A%2F%2Fweb.facebook.com',
+    'tab=people_and_other_pages&cquick=jsc_c_14&cquick_token=AQ5CqNyaWgIrd2D2BpI&ctarget=https%3A%2F%2Fweb.facebook.com',
+    'tab=people_and_other_pages&cquick=jsc_c_11&cquick_token=AQ5CqNyaWgIrd2D22Gg&ctarget=https%3A%2F%2Fweb.facebook.com'
 ]
 #MEMBUKA LINK IFRAME FORM BLOK PROFILE
 driver.get(listIframe[0])
